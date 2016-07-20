@@ -15,4 +15,3 @@
   (-> app-routes
       (wrap-defaults site-defaults)
       (ring-json/wrap-json-response)))
-
